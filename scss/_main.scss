@@ -45,3 +45,19 @@ main {
 		}
 	}
 }
+.izquierda {
+	grid-area: izquierda;
+	text-align: center;
+}
+.derecha {
+	grid-area: derecha;
+	text-align: center;
+}
+.areas {
+	div {
+		img {
+			height: 100vh;
+			width: 100%;
+		}
+	}
+}
