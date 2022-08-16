@@ -10,7 +10,6 @@ header nav div ul {
   align-items: center;
   width: 100%;
   height: 100px;
-  background-color: rgba(255, 255, 255, 0.479);
 }
 header nav div img {
   height: 80px;
@@ -50,11 +49,11 @@ header nav div img {
   color: black;
 }
 .logo-messi:hover {
-  color: rgba(141, 190, 192, 0.904);
+  color: rgba(141, 190, 192, 0.9058823529);
 }
 
 .nav-link:hover {
-  color: rgb(245, 16, 16);
+  color: rgba(141, 190, 192, 0.9058823529);
 }
 
 .areas {
@@ -71,7 +70,7 @@ header nav div img {
 }
 
 main {
-  background-color: rgb(207, 209, 209);
+  background-color: #cfd1d1;
 }
 main div h1 {
   font-size: 90px;
@@ -207,106 +206,144 @@ footer {
   font-style: italic;
   font-size: 30px;
 }
-
 /* -------media queries fotos ------- */
+
 @media screen and (max-width: 993px) {
-  header nav div ul {
-    font-size: 10px;
-  }
+ 
+  header nav div ul{
+      font-size: 10px;
+     }
 }
+
 @media screen and (max-width: 1335px) {
   .galeria {
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+      width: 100%;
+      margin: auto;
+      display: grid;
+
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+
   }
+
+ 
+
+ 
 }
+
+
+
 @media screen and (max-width: 681px) {
   .foga {
-    display: none;
+      display: none;
   }
+
   .galeria {
-    grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
   }
 }
+
 /* -------media queries inicio ------- */
+
+
 @media screen and (max-width: 1245px) {
   .areas {
-    grid-template-areas: "izquierda" "derecha";
+      grid-template-areas:
+          "izquierda"
+          "derecha";
   }
-  .logo-messi {
-    display: none;
+  .logo-messi{
+      display: none;
   }
 }
+
 @media screen and (max-width: 601px) {
   .derecha {
-    display: none;
+      display: none;
   }
+
   .areas div h1 {
-    font-size: 65px;
+      font-size: 65px;
+
   }
+
   .areas div p {
-    font-size: 45px;
+      font-size: 45px;
+
+  }
+
+}
+@media screen and (max-width: 439px){
+  .logo-messi{
+      display: none;
   }
 }
-@media screen and (max-width: 439px) {
-  .logo-messi {
-    display: none;
-  }
-}
+
 /* -----media queries biografia--------- */
+
+
 @media screen and (max-width: 1315px) {
+
+      
+
+  
   nav {
-    justify-content: space-between;
-    margin: 15px 15px;
-    font-size: 20px;
+      justify-content: space-between;
+      margin: 15px 15px;
+      font-size: 20px;
+
   }
+  
+
   .parrafo {
-    z-index: 1;
-    width: 900px;
-    height: 750px;
-    padding: 20px 20px;
-    line-height: 1.5;
-    background: rgba(247, 241, 241, 0.705);
-    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-    border-radius: 5px;
-    -o-object-fit: cover;
-       object-fit: cover;
+      z-index: 1;
+      width: 900px;
+      height: 750px;
+      padding: 20px 20px;
+      line-height: 1.5;
+      background: rgba(247, 241, 241, 0.705);
+      box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+      border-radius: 5px;
+      object-fit: cover;
   }
+
   .parrafo-bio {
-    font-style: italic;
-    font-size: 20.5px;
+      font-style: italic;
+      font-size: 20.5px;
+
+
   }
+
   .parrafo img {
-    width: 30%;
+      width: 30%;
   }
 }
+
 @media screen and (max-width: 603px) {
   .parrafo img {
-    display: none;
+      display: none;
   }
+
   .parrafo-bio {
-    font-style: italic;
-    font-size: 15px;
+      font-style: italic;
+      font-size: 15px;
+
+
   }
+
 }
+
+
 /* -----media queries nosotros-------- */
-@media screen and (max-width: 611px) {
-  #mapa h2 {
-    font-size: 20px;
+@media screen and (max-width: 611px){
+  #mapa h2{
+      font-size: 20px;
   }
   #mapa iframe {
-    width: 300px;
-    height: 300px;
+      width: 300px;
+      height: 300px;
   }
-  .parrafo-2 {
-    font-size: 15px;
+  .parrafo-2{
+      font-size: 15px;
   }
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
