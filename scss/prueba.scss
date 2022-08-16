@@ -1,17 +1,15 @@
 
-@import "nav";
+ @import "nav";
 @import "main";
-
+@import "footer";
+@import "foto-videos";
+@import "biografia";
+@import "nosotros";
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* variables */
-$spacing-1: 24px;
-$color-primary:#ffffff7a
-$spacing-2: 16 24px;
 
 
 
