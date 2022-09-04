@@ -3,13 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+section{
+  background-color:black;
+  padding: 10px 15px;
+}
 header nav div ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 100px;
+  background-color:white;
 }
 header nav div img {
   height: 80px;
@@ -96,11 +100,14 @@ main div .parra {
 .derecha {
   grid-area: derecha;
   text-align: center;
+  
 }
 
 .areas div img {
   height: 100vh;
   width: 100%;
+  font-size: 10px;
+
 }
 
 footer {
