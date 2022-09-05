@@ -181,8 +181,9 @@ footer {
 
 .parrafo {
   z-index: 1;
-  width: 900px;
-  height: 900px;
+  width: 100vh;
+  height: 1300px;
+  
   padding: 20px 20px;
   line-height: 1.5;
   background: rgba(247, 241, 241, 0.705);
@@ -201,7 +202,7 @@ footer {
 .parrafo-bio {
   font-style: italic;
   font-size: 25px;
-  line-height: 22px;
+  line-height: 25px;
 }
 
 * {
@@ -401,13 +402,14 @@ footer {
 
   .parrafo {
     z-index: 1;
-     
+ 
+   
       padding: 20px 20px;
       line-height: 1.5;
       background: rgba(247, 241, 241, 0.705);
       box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
       border-radius: 5px;
-      object-fit: cover;
+     
   }
 
   .parrafo-bio {
