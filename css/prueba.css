@@ -350,7 +350,7 @@ footer {
 /* -------media queries inicio ------- */
 
 
-@media screen and (max-width: 1245px) {
+@media screen and (max-width: 1753px) {
   .areas {
       grid-template-areas:
           "izquierda"
@@ -386,7 +386,7 @@ footer {
 /* -----media queries biografia--------- */
 
 
-@media screen and (max-width:900px ) {
+@media screen and (max-width:1888px ) {
 
       
 
@@ -400,9 +400,8 @@ footer {
   
 
   .parrafo {
-      z-index: 1;
-      width: 900px;
-      height: 750px;
+    z-index: 1;
+     
       padding: 20px 20px;
       line-height: 1.5;
       background: rgba(247, 241, 241, 0.705);
