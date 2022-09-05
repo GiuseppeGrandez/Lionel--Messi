@@ -385,7 +385,7 @@ footer {
 /* -----media queries biografia--------- */
 
 
-@media screen and (max-width: 1315px) {
+@media screen and (max-width: 1700px) {
 
       
 
@@ -424,7 +424,7 @@ footer {
 
 @media screen and (max-width: 603px) {
   .parrafo img {
-      display: none;
+      
   }
 
   .parrafo-bio {
